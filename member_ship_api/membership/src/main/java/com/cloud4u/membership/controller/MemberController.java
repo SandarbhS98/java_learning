@@ -21,4 +21,7 @@ public class MemberController {
     public ResponseEntity<MemberInfo> registration(@RequestBody MemberInfo memberInfo) {
         return ResponseEntity.ok(memberService.register(memberInfo));
     }
+    public  Medals(){
+
+    }
 }
