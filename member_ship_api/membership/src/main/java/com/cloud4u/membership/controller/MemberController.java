@@ -22,6 +22,7 @@ public class MemberController {
         return ResponseEntity.ok(memberService.register(memberInfo));
     }
     public  Medals(){
+        System.out.println("");
 
     }
 }
